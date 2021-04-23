@@ -55,7 +55,7 @@ class maximum_subarray_sum_dc{
         System.out.println(ans);
     }
     public static int get_maximum(int[] arr,int low,int high){
-        if(arr[low]==arr[high]) return arr[low];
+        if(low==high) return arr[low];
         int mid=(low+high)/2;
         return Math.max(Math.max(get_maximum(arr,low,mid),get_maximum(arr,mid+1,high)),sum_of_left_and_right(arr,low,mid,high));
     }
