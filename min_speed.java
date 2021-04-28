@@ -1,4 +1,4 @@
-/*Motu loves to eat Samosas. A Samosas vendor prepared N boxes of samosas, 
+/*Motulal loves to eat Samosas. A Samosas vendor prepared N boxes of samosas, 
 where i-th box contains box[i] samosas. And the samosas vendor went outside,
 He will be back in T hours time.
 
